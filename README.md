@@ -39,4 +39,8 @@ Follow these steps to set up the project locally:
    ```bash
    pip install -r requirements.txt
    ```
-5. Run the development
+5. Make migrations
+   ```bash
+   py manage.py makemigrations && py manage.py migrate
+   ```
+6. Run the development
